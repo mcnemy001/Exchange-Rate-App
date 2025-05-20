@@ -1,0 +1,60 @@
+<resources>
+    <string name="app_name">Exchange Rate App</string>
+    <string name="title_app">Exchange rate</string>
+    <string name="country">Country</string>
+    <string name="buy">Buy</string>
+    <string name="sell">Sell</string>
+
+    <string-array name="countries">
+        <item>Vietnam</item>
+        <item>Nicaragua</item>
+        <item>Korea</item>
+        <item>Russia</item>
+        <item>China</item>
+        <item>Portuguese</item>
+        <item>Korea</item>
+        <item>French</item>
+        <item>Nicaragua</item>
+        <item>China</item>
+    </string-array>
+
+    <string-array name="buy_rates">
+        <item>1.403</item>
+        <item>9.123</item>
+        <item>3.704</item>
+        <item>116.0</item>
+        <item>1.725</item>
+        <item>1.403</item>
+        <item>3.454</item>
+        <item>23.45</item>
+        <item>263.1</item>
+        <item>1.725</item>
+    </string-array>
+
+    <string-array name="sell_rates">
+        <item>1.746</item>
+        <item>12.09</item>
+        <item>5.151</item>
+        <item>144.4</item>
+        <item>2.234</item>
+        <item>1.746</item>
+        <item>4.312</item>
+        <item>34.56</item>
+        <item>300.3</item>
+        <item>2.234</item>
+    </string-array>
+
+    <string-array name="flags">
+        <item>flag_vietnam</item>
+        <item>flag_nicaragua</item>
+        <item>flag_korea</item>
+        <item>flag_russia</item>
+        <item>flag_china</item>
+        <item>flag_portuguese</item>
+        <item>flag_korea</item>
+        <item>flag_french</item>
+        <item>flag_nicaragua</item>
+        <item>flag_china</item>
+    </string-array>
+
+</resources>

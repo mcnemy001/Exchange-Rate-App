@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white">
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingVertical="12dp"
+        android:paddingHorizontal="4dp">
+
+        <ImageView
+            android:id="@+id/ivFlag"
+            android:layout_width="32dp"
+            android:layout_height="20dp"
+            android:scaleType="fitXY"/>
+
+        <TextView
+            android:id="@+id/tvCountry"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="2"
+            android:layout_marginStart="12dp"
+            android:textColor="@color/textBody"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvBuy"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/textBody"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"/>
+
+        <TextView
+            android:id="@+id/tvSell"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:gravity="end"
+            android:textColor="@color/textBody"
+            android:fontFamily="@font/poppins_medium"
+            android:textSize="14sp"/>
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/divider"/>
+</LinearLayout>
+
